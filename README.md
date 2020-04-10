@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Clone or Download ZIP. Extract and open in Visual Studio Code and run `npm install` and `npm start`.
+
+1. Created a file `mockApiData.js` which includes the mock data from API.
+2. When the page loads, a list of users will be shown, which are actually buttons.
+3. On click of a user (button) `eg : Egon Spengler`, a modal will be displayed.
+4. The modal displays all the time ranges during which the user was active (includes date, start time and end time).
+5. In the modal, for every time range there is a calendar button
+6. On click of calendar icon button, a calendar will be displayed with the date being hightlighted and the start and end time will be displayed in the time pickers. As we change the activity day, the highlighted date in calendar and the time in time pickers also changes.
+7. Below are the components used for Calendar and time picker:
+      Calendar : `react-calendar` (licensed by MIT)
+      Time Picker : `react-time-picker` (licensed by MIT)
+
 ## Available Scripts
 
 In the project directory, you can run:
